@@ -1,4 +1,3 @@
----
 
 ## 01 - py_angram
 
@@ -30,5 +29,3 @@ Anagram("hello", "world")                 → False
 Anagram("Conversation", "Voices rant on") → False
 Anagram("a", "a")                         → True
 ```
-
----
