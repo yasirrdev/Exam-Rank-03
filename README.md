@@ -47,7 +47,7 @@ py_ejercicio/
 Puedes clonar el repo y practicar cada ejercicio desde cero:
 
 ```bash
-git clone https://github.com/0hmza/Exam03.git
+git clone https://github.com/yasirrdev/Exam-Rank-03.git
 cd Exam03
 ```
 
