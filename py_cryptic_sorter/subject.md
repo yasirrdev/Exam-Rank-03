@@ -1,5 +1,3 @@
----
-
 ## 04 - py_cryptic_sorter
 
 **Fichero a entregar:** `cryptic_sorter.py`  
@@ -32,6 +30,3 @@ cryptic_sorter(["dog", "cat", "hi", "a"])           → ['a', 'hi', 'cat', 'dog'
 cryptic_sorter(["bat", "cat", "ant"])               → ['ant', 'bat', 'cat']
 cryptic_sorter(["bbb", "ccc", "ddd"])               → ['bbb', 'ccc', 'ddd']
 cryptic_sorter([])                                  → []
-```
-
----
