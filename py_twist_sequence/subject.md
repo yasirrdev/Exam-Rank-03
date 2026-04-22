@@ -1,5 +1,3 @@
----
-
 ## 10 - py_twist_sequence
 
 **Fichero a entregar:** `twist_sequence.py`  
@@ -33,5 +31,3 @@ twister([1, 2, 3, 4], -1)       → [2, 3, 4, 1]
 twister([], 3)                  → []
 twister([1], 10)                → [1]
 ```
-
----
