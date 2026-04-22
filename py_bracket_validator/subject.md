@@ -1,4 +1,3 @@
----
 
 ## 03 - py_bracket_validator
 
@@ -36,5 +35,3 @@ bracket_validator("([)]")                       → False
 bracket_validator("(((")                        → False
 bracket_validator("())")                        → False
 ```
-
----
