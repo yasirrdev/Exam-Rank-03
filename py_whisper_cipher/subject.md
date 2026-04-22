@@ -1,4 +1,3 @@
----
 
 ## 11 - py_whisper_cipher
 
@@ -34,5 +33,3 @@ Shift_alphabet("xyz", 3)          → "abc"
 Shift_alphabet("", 10)            → ""
 Shift_alphabet("12345", 4)        → "12345"
 ```
-
----
