@@ -1,5 +1,3 @@
----
-
 ## 08 - py_shadow_merge
 
 **Fichero a entregar:** `shadow_merge.py`  
@@ -32,5 +30,3 @@ mergeList([], [])                       → []
 mergeList([1, 1, 1], [1, 1])            → [1, 1, 1, 1, 1]
 mergeList([-5, -2], [-3, -1])           → [-5, -3, -2, -1]
 ```
-
----
