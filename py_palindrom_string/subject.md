@@ -1,4 +1,3 @@
----
 
 ## 06 - py_palindrom_string
 
@@ -34,5 +33,3 @@ isPalindrome("12321")                          → True
 isPalindrome("12345")                          → False
 isPalindrome("Able was I ere I saw Elba")      → True
 ```
-
----
