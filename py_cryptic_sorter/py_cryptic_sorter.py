@@ -1,13 +1,23 @@
-def py_cryptic_sorter(tlist: list[str]) -> list[str]:
-    def count_vowels(s: str):
+def cryptic_sorter(tlist: list) -> list:
+    def count_vouwels(s: str):
         count = 0
+        vowels = "aeiouAEIOU"
         for i in s:
-            if i in "aeiouAEIOU":
+            if i in vowels:
                 count += 1
         return count
 
-    return sorted(tlist, key=lambda s: (
-        count_vowels(s),
-        len(s),
-        s.lower()
+    return sorted(tlist, key=lambda x: (
+        count_vouwels(x),
+        len(x),
+        x.lower()
     ))
+
+
+if __name__ == "__main__":
+
+    print(cryptic_sorter(["apple", "bat", "car", "ae", "b"]))  # → ['b', 'bat', 'car', 'ae', 'apple']
+    print(cryptic_sorter(["dog", "cat", "hi", "a"]))           # → ['a', 'hi', 'cat', 'dog']
+    print(cryptic_sorter(["bat", "cat", "ant"]))               # → ['ant', 'bat', 'cat']
+    print(cryptic_sorter(["bbb", "ccc", "ddd"]))               # → ['bbb', 'ccc', 'ddd']
+    print(cryptic_sorter([]))                                  # → []
