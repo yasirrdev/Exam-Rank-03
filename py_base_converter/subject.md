@@ -1,4 +1,4 @@
----
+
 ## 02 - py_base_converter
 
 **Fichero a entregar:** `convertBase.py`  
@@ -35,5 +35,3 @@ convert_base("000", 2, 10)    → "0"
 convert_base("2", 2, 10)      → "ERROR"
 convert_base("G", 16, 10)     → "ERROR"
 ```
-
----
