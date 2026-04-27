@@ -1,15 +1,15 @@
-def py_string_sculptor(text: str) -> str:
+def sculptor(text: str) -> str:
 
-    newtext = ""
     lower = True
+    s = ""
 
-    for i in range(0, len(text)):
-        if text[i].isalpha():
+    for i in text:
+        if i.isalpha():
             if lower:
-                newtext += text[i].lower()
+                s += i.lower()
             else:
-                newtext += text[i].upper()
+                s += i.upper()
             lower = not lower
         else:
-            newtext += text[i]
-    return newtext
+            s += i
+    return s
